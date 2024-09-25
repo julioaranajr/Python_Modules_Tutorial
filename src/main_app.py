@@ -1,5 +1,4 @@
-"""
-Main application module to demonstrate package1 and package2.
+"""Main application module to demonstrate package1 and package2.
 
 This module imports functions from package1 and package2 to
 print greeting and farewell messages.
@@ -19,6 +18,7 @@ Usage:
 """
 
 from package1.module1 import greet as hello
+from package1.module1 import self_test as test
 
 from package2.module2 import farewell as bye
 
@@ -26,10 +26,14 @@ from package2.module2 import farewell as bye
 package1 = __import__("package1")
 package2 = __import__("package2")
 
+author = package1.module1.AUTHOR
+url = package1.module1.URL
+
 
 def main():
     """Entry point of the application."""
     print(hello())
+    print(test())
     print(bye())
 
 

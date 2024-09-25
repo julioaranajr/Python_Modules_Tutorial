@@ -16,26 +16,50 @@ Attributes:
 
 AUTHOR = "julioaranajr"
 URL = "https://julioaranajr.com/"
+USERNAME = input("Enter your username for module1: ")
 
 
-def self_test():
-    """Run self_test() to test the functions in module1.py."""
-    print("Running self_test() in module1.py")
+def self_test(name="Module 1"):
+    """Run tests for the functions in module1.py."""
+    print(f"Running self_test() in {name}")
     func1()
     func2()
+    print(greet())
+    print(author(AUTHOR, URL))
     print("self_test() in module1.py completed.")
 
 
 def func1():
-    """Function 1 of module 1."""
+    """Print Function 1 of module 1."""
     print("func1() in module1.py")
 
 
 def func2():
-    """Function 2 of module 1."""
+    """Print Function 2 of module 1."""
     print("func2() in module1.py")
 
 
-def greet():
-    """Returns a greeting message from Module 1."""
-    return "Hello from Module 1"
+def greet(name=USERNAME):
+    """Return a greeting message from Module 1."""
+    if name:
+        return f"Hello, {name}! Welcome to Module 1."
+    else:
+        return "Hello! Welcome to Module 1. Anonymous user."
+
+
+def author(name=AUTHOR, url=URL):
+    """Return the author and URL of the module."""
+    if name and url:
+        print(f"Author: {name}")
+        print(f"URL: {url}")
+    else:
+        print("Author and URL not available.")
+
+
+def main():
+    """Run self_test() in module1.py."""
+    self_test()
+
+
+if __name__ == "__main__":
+    main()

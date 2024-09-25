@@ -1,8 +1,9 @@
-"""
-This script imports `module2` from `package2` and checks for the presence of
-a list of attributes in the global namespace or within `module2`.
-It prints the value of each attribute if found, or a "Not found" message if
-the attribute is not present.
+"""Module 2 attributes script.
+
+This script imports `module2` from `package2` and checks for
+the presence of a list of attributes in the global namespace
+or within `module2`. It prints the value of each attribute if
+found, or a "Not found" message if the attribute is not present.
 
 Attributes checked:
 - "__builtins__"
