@@ -161,9 +161,13 @@ You also learned how to create a module, use a module, re-name a module, use bui
 
 ## References
 
-- [Python Modules](https://www.w3schools.com/python/python_modules.asp)
-- [Python Modules](https://docs.python.org/3/tutorial/modules.html)
-- [Python Modules](https://realpython.com/python-modules-packages/)
-- [Python Modules](https://www.learnpython.org/en/Modules_and_Packages)
-- [Python Modules](https://www.programiz.com/python-programming/modules)
-- [Python Modules](https://www.geeksforgeeks.org/modules-in-python/)
+- [w3schools](https://www.w3schools.com/python/python_modules.asp)
+- [Python Org](https://docs.python.org/3/tutorial/modules.html)
+- [Real Python](https://realpython.com/python-modules-packages/)
+- [Learn Python](https://www.learnpython.org/en/Modules_and_Packages)
+- [Programiz](https://www.programiz.com/python-programming/modules)
+- [geeksforgeeks](https://www.geeksforgeeks.org/modules-in-python/)
+
+## What is the Next Steps
+
+In my next tutorial, I will cover Python Packages. Working with packages in Python is a great way to organize your code and make it more manageable. Stay tuned! PyPi, here we come!
